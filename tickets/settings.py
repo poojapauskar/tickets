@@ -50,7 +50,8 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.XFrameOptionsMiddleware',
+    'django.middleware.clickjacking.
     'django.middleware.security.SecurityMiddleware',
 )
 
