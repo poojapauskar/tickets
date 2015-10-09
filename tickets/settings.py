@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'tickets.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django_postgrespool',
         'NAME': 'd5rkjvl5ru1djs',                      
         'USER': 'nyyldxmypsgeeu',
         'PASSWORD': 'vLOwgjy1nclSa4xRaTAHH-r3XK',
