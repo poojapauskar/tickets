@@ -79,6 +79,8 @@ WSGI_APPLICATION = 'tickets.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
+touch __init__.py
+
 DATABASES = {
     'default': {
         'ENGINE': 'django_postgrespool',
@@ -121,11 +123,16 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+
+
 # # Parse database configuration from $DATABASE_URL
 import dj_database_url
 DATABASES['default'] =  dj_database_url.config()
 
 DATABASES['default']['ENGINE'] = 'django_postgrespool'
+
+
+
 
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
