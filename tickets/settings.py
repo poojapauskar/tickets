@@ -128,8 +128,6 @@ STATIC_URL = '/static/'
 # # Parse database configuration from $DATABASE_URL
 DATABASES = {'default': dj_database_url.config(default=DATABASE_URL)}
 
-DATABASES['default']['ENGINE'] = 'django_postgrespool'
-
 
 
 
