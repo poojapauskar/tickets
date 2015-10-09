@@ -81,13 +81,24 @@ WSGI_APPLICATION = 'tickets.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'tickets',                      
-        'USER': 'postgres',
-        'PASSWORD': 'qwerty',
-        'HOST': 'localhost',
+        'NAME': 'd5rkjvl5ru1djs',                      
+        'USER': 'nyyldxmypsgeeu',
+        'PASSWORD': 'vLOwgjy1nclSa4xRaTAHH-r3XK',
+        'HOST': 'ec2-107-22-187-89.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'tickets',                      
+#         'USER': 'postgres',
+#         'PASSWORD': 'qwerty',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
 
 
 # Internationalization
