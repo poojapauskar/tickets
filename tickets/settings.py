@@ -41,6 +41,7 @@ INSTALLED_APPS = (
     'barcode',
     'decode',
     'vendor_register',
+    'gunicorn',
 )
 
 MIDDLEWARE_CLASSES = (
